@@ -37,7 +37,7 @@ A Smart Home Automation technique with Raspberry Pi using IoT	Ethernet	Raspberry
 
 
 ## Components Required:
-●	Raspberry Pi
+●	Raspberry Pi/n
 ●	Microphone
 ●	Speaker
 ●	Relay 
