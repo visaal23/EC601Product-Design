@@ -20,11 +20,15 @@ To create an Application that controls the functionality and also monitors appli
 
 
 ## Define MVP:
-INPUT : Command or Control
-OUTPUT : Functionality
-
+<p align="center">
+INPUT : Command or Control  
+</p>
+<p align="center">
+ OUTPUT : Functionality
+</p>
+<p align="center">
 As a User, I want to input a command or control and I want the corresponding functionality.
-
+</p>
 
 ## Features comparison for home automation system published in the past few years
 
@@ -39,11 +43,11 @@ As a User, I want to input a command or control and I want the corresponding fun
 
 
 ## Components Required:
-●	Raspberry Pi/n
-●	Microphone
-●	Speaker
-●	Relay 
-●	Jumper wires
+●	Raspberry Pi  
+●	Microphone  
+●	Speaker  
+●	Relay  
+●	Jumper wires  
 
 ### Raspberry Pi:
 Raspberry Pi is a low cost, small size computer that runs on Linux OS. Raspberry Pi is used as the local web server and its General-Purpose Input/Output (GPIO) pins are controlled through a simple webpage.
@@ -58,11 +62,11 @@ The speaker works on the same mechanism as a microphone but in reverse. A microp
 Relay allows one circuit to switch another circuit while they are separated. Relay is used when we want to use a low voltage circuit to turn ON and OFF the device which required high voltage for its operation. For example, 5V supply connected to the relay is sufficient to drive the bulb operated on 230V AC mains. 
 
 ## Work to be Done(Sprint 2):
-1.Gathering all required components for the project.
-2.Connecting USB Microphone with Raspberry Pi: Need to find whether the microphone is compatible with the raspberry pi and program it accordingly.
-3.Libraries required for Speech Recognition on Raspberry Pi
-4.Raspberry Pi Speech Recognition Program
-5.Controlling AC Loads through Voice Commands on Pi
+1. Gathering all required components for the project.  
+2. Connecting USB Microphone with Raspberry Pi: Need to find whether the microphone is compatible with the raspberry pi and program it accordingly.  
+3. Libraries required for Speech Recognition on Raspberry Pi  
+4. Raspberry Pi Speech Recognition Program  
+5. Controlling AC Loads through Voice Commands on Pi  
 
 
 
