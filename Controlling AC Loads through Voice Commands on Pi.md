@@ -2,8 +2,9 @@
 
 At idle conditions, the raspberry pi keeps on checking for the phrase which triggers the code. In our case, our triggering phrase will be “hello”. We wrote our code in such a way that when the user speaks the triggering phrase- hello, it triggers the remaining part of the code. The program will further run, which deals with the listening of the audio and executing the commands (which turns on/off the lights depending on the commands it listens to).
 
-# Code
+### Code
 
+```
 from subprocess import call
 import speech_recognition as sr
 import serial
@@ -26,7 +27,7 @@ def listen1():
 def voice(audio1):
        try: 
          text1 = r.recognize_google(audio1) 
-##         call('espeak '+text, shell=True) 
+          call('espeak '+text, shell=True) 
          print ("you said: " + text1);
          return text1; 
        except sr.UnknownValueError: 
@@ -36,4 +37,6 @@ def voice(audio1):
        except sr.RequestError as e: 
           print("Could not request results from Google")
           return 0
+```          
+     
 
